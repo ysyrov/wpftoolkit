@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+nuget pack x.extended.wpf.tookit.nuspec
+-->
+<package>
+  <metadata>
+    <id>X.Extended.Wpf.Toolkit</id>
+    <version>3.6.0.1</version>
+    <authors>ysyrov</authors>
+    <owners>ysyrov</owners>
+    <license type="expression">MS-PL</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Forked Extended WPF Toolkit</description>
+    <releaseNotes>Includes critical bug fixes...</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Extended WPF Toolkit</tags>
+  </metadata>
+  <files>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\Xceed.Wpf.Toolkit.dll" target="lib\net40\Xceed.Wpf.Toolkit.dll"/>
+
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\Xceed.Wpf.AvalonDock.dll" target="lib\net40\Xceed.Wpf.AvalonDock.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\de\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\es\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\fr\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\hu\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\it\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\pt-BR\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\ro\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\ru\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\sv\Xceed.Wpf.AvalonDock.resources.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" target="lib\net40\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll"/>
+
+    <file src="Src\Xceed.Wpf.AvalonDock.Themes.Aero\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll" target="lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock.Themes.Metro\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll" target="lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll"/>
+    <file src="Src\Xceed.Wpf.AvalonDock.Themes.VS2010\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" target="lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll"/>
+
+  </files>
+</package>
