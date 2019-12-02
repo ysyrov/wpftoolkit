@@ -5,7 +5,7 @@ nuget pack x.extended.wpf.tookit.nuspec
 <package>
   <metadata>
     <id>X.Extended.Wpf.Toolkit</id>
-    <version>3.6.0.1</version>
+    <version>3.7.0.1</version>
     <authors>ysyrov</authors>
     <owners>ysyrov</owners>
     <license type="expression">MS-PL</license>
